@@ -49,11 +49,11 @@ This is a practical application of the XC6194A IC with JST style PH series conne
 **NOTE:** All IO/Expansion pins operate at VIn level. If the XC6194A IO are connected to an MCU, please verify voltage compatability or utilize one of the optional Micro Foundry XC6194A expansion PCBs.
 
 ## XC6194A Breakout PCB Variants
-- Micro Foundry XC6194A JST PH Style Breakout PCB
-- Micro Foundry XC6194A Micro USB Breakout PCB
-- Micro Foundry XC6194A USB-C Breakout PCB
+- [Micro Foundry XC6194A JST PH Style Breakout PCB](https://github.com/microfoundry/MicroFoundry-XC6194A-PH-Breakout-PCB)
+- [Micro Foundry XC6194A Micro USB Breakout PCB](https://github.com/microfoundry/MicroFoundry-XC6194A-Micro-USB-Breakout-PCB)
+- [Micro Foundry XC6194A USB-C Breakout PCB](https://github.com/microfoundry/MicroFoundry-XC6194A-USB-C-Breakout-PCB)
 
 ## XC6194A Expansion PCBs
-- Micro Foundry XC6194A Discrete Logic RGB Driver PCB (via MCU IO)
-- Micro Foundry XC6194A WS2811 RGB Driver PCB (single Wire aka:NeoPixel)
-- Micro Foundry XC6194A IS31FL3193 RGB Driver PCB (i2c interface)
+- [Micro Foundry XC6194A Discrete Logic RGB Expansion PCB](https://github.com/microfoundry/MicroFoundry-XC6194A-Discrete-Expansion-PCB)
+- [Micro Foundry XC6194A WS2811 RGB Expansion PCB](https://github.com/microfoundry/MicroFoundry-XC6194A-WS2811-Expansion-PCB)
+- [Micro Foundry XC6194A IS31FL3193 RGB Expansion PCB](https://github.com/microfoundry/MicroFoundry-XC6194A-IS31FL3193-Expansion-PCB)
