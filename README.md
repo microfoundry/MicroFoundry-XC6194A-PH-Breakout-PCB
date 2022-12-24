@@ -4,7 +4,9 @@ Information about the XC6194A Breakout with PH connectors.
 ## XC6194 Description
 The TOREX XC6194A series device is load switch with functions best suited for a momentary push button and features to enhance battery operated devices.
 
-The built-in high side switch is turned on by a momentary switch (Turning off is also possible on the A type.) and turned off by a HIGH level signal into the SHDN pin from the MCU or the like. The high side switch is turned on and latched by inputting LOW level signal from a momentary switch to the SW pin. It is possible to shut down (OFF) by inputting a 1-pulse HIGH level signal from an MCU or the like to the SHDN pin.
+The built-in high side switch is turned on and latched by inputting LOW level signal from a momentary switch to the SW (Switch) pin. It is turned off by a HIGH level signal into the SHDN (Shutdown) pin from the MCU or the like. Optionally, power-off state can be achived with the XC6194A series by inputting a continous LOW level signal for the duration of TOFFD (Turn-Off Delay) to the SW pin.
+
+When the SW and SHDN signals are wired to MCU IO, end-user developed code can cleanly close connections, stop processes and then output the required SHDN signal when appropriate. Additionaly, the Turn-Off Delay functionality offers a fail-safe option to power down.
 
 ## XC6194 Features
 
