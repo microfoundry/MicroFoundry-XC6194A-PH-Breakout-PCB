@@ -25,7 +25,7 @@ When the SW and SHDN signals are wired to MCU IO, end-user developed code can cl
 | Package | USP-8B06 (2.0 x 2.0 x h0.33mm) |
 
 ## The Micro Foundry XC6194A Breakout
-This is a practical application of the XC6194A IC with JST style PH series connectors for VIn/VOut, a JST SH style connector to provide IO access to the XC6194A functions, essential passive components required for basic operation and voltage-in/voltage-out LEDs. An additional 1.0mm pitch FFC connector offers expansion capabilities for optional breakout PCBs with features like voltage level signal translation and the ability to drive up to 3 LEDs for momentarty switches w/RGB LEDs such as those sold by Adafruit. The PCB is 26x26 mm with 4x 2.5mm mounting holes.
+This is a practical application of the XC6194A IC with JST style PH series connectors for VIn/VOut, a JST SH style connector to provide IO access to the XC6194A functions, essential passive components required for basic operation and voltage-in/voltage-out LEDs. An additional 1.0mm pitch FFC connector offers expansion capabilities for optional breakout PCBs with features like voltage level signal translation and the ability to drive up to 3 LEDs for RGB momentarty switches such as those sold by Adafruit. The PCB is 26x26 mm with 4x 2.5mm mounting holes.
 
 ## Pinouts
 ### VIn/VOut
@@ -46,4 +46,14 @@ This is a practical application of the XC6194A IC with JST style PH series conne
 5. PG   - Power Good Output (Active HIGH)
 6. SHDN - Shutdown Input (Active HIGH)
 
-**NOTE:** All IO/Expansion pins operate at VIn level. If the XC6194A IO are connected to an MCU, please verify voltage compatability or utilize one of the optional expansion PCBs.
+**NOTE:** All IO/Expansion pins operate at VIn level. If the XC6194A IO are connected to an MCU, please verify voltage compatability or utilize one of the optional Micro Foundry XC6194A expansion PCBs.
+
+## XC6194A Breakout PCB Variants
+- Micro Foundry XC6194A JST PH Style Breakout PCB
+- Micro Foundry XC6194A Micro USB Breakout PCB
+- Micro Foundry XC6194A USB-C Breakout PCB
+
+## XC6194A Expansion PCBs
+- Micro Foundry XC6194A Discrete Logic RGB Driver PCB (via MCU IO)
+- Micro Foundry XC6194A WS2811 RGB Driver PCB (single Wire aka:NeoPixel)
+- Micro Foundry XC6194A IS31FL3193 RGB Driver PCB (i2c interface)
