@@ -19,7 +19,7 @@ When the SW and SHDN signals are wired to MCU IO, end-user developed code can cl
 | Turn-On Delay Time   | 0.2s, 1.0s, 3.0s or 5.0s        |
 | Turn-Off Method      | <ul><li>By inputting “H” voltage to the SHDN pin.</li><li>By inputting “L” voltage for the duration of TOFFD to the SW pin.</li></ul>|
 | Turn-Off Delay Time  | 3s, 5s, 10s or 15s |
-| Added Functions      | <ul><li>Power Good function (The PG pin)</li><li>Shutdown function (the SHDN pin)</li></ul>|
+| Added Functions      | <ul><li>Power Good (the PG pin)</li><li>Shutdown (the SHDN pin)</li></ul>|
 | Protective Functions | <ul><li>Output capacitor inrush current limit soft-start</li><li>Output capacitor discharge function</li><li>Output short circuit protection</li><li>Thermal shutdown</li></ul>|
 | Operating Ambient Temperature | -40℃ ~ 85℃ | 
 | Package | USP-8B06 (2.0 x 2.0 x h0.33mm) |
