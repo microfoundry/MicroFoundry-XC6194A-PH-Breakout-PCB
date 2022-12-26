@@ -37,7 +37,7 @@ JST PH Style connector with polarity compatible Adafruit's devices and batteries
 | 2 | GND |
 
 ### IO
-JST SH style connector
+JST SH style connector, 1.0mm Pitch, 6 Position
 
 | Pin | Function | Description | XC6194A IO |
 | --- | -------- | ----------- | ---------- |
@@ -51,7 +51,7 @@ JST SH style connector
 **NOTE:** All IO/Expansion pins operate at VIn level. If the XC6194A IO are connected to an MCU, please verify voltage compatibility or utilize one of the optional Micro Foundry XC6194A expansion PCBs.
 
 ### Expansion
-6 Position 1.0mm Pitch FFC connector. Pinout is the same as the IO port above.
+FFC ZIF connector with backlock, 1.0mm Pitch, 6 Position. Pinout is the same as the IO port above.
 
 **NOTE:** The FFC connector is a bottom/top common contact design. I.e., there will be power and IO signals present regardless of which orientation the FFC jumper is inserted. Please exercise caution when connecting external devices and double check pin-to-pin mapping.
 
