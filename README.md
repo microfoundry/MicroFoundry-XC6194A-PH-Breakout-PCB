@@ -32,19 +32,26 @@ This is a practical application of the XC6194A IC with JST style PH series conne
 1. VIn or VOut
 2. GND
 ### IO
-1. VIn  - Voltage In 
-2. GND  - Ground
-3. VOut - Voltage Out
-4. SW   - Momentary Switch Input (Active LOW)
-5. PG   - Power Good Output (Active HIGH)
-6. SHDN - Shutdown Input (Active HIGH)
+
+| Pin | Function | Description | Voltage Potential |
+| --- | -------- | ----------- | ---------- |
+| 1 | VIn | Voltage In | | XC6194A VIn |
+| 2 | GND | Ground | | |
+| 3 | VOut | Voltage Out | | XC6194A VIn |
+| 4 | SW | Switch | Input (Active LOW) | XC6194A VIn |
+| 5 | PG | Power Good | Output (Active HIGH) | XC6194A VIn |
+| 6 | SHDN | Shutdown | Input (Active HIGH) | XC6194A VIn |
+
 ### Expansion
-1. VIn  - Voltage In 
-2. GND  - Ground
-3. VOut - Voltage Out
-4. SW   - Momentary Switch Input (Active LOW)
-5. PG   - Power Good Output (Active HIGH)
-6. SHDN - Shutdown Input (Active HIGH)
+
+| Pin | Function | Description | XC6194A IO | Voltage Potential |
+| --- | -------- | ----------- | ---------- | ---------- |
+| 1 | VIn | XC6194A Voltage In | | XC6194A VIn |
+| 2 | GND | Ground | | GND |
+| 3 | VOut | XC6194A Switched Voltage Out | | XC6194A VOut |
+| 4 | SW | XC6194A Momentary Switch | Input (Active LOW) | XC6194A VIn |
+| 5 | PG | XC6194A Power Good | Output (Active HIGH) | XC6194A VIn |
+| 6 | SHDN | XC6194A Shutdown | Input (Active HIGH) **See NOTE** | XC6194A VIn |
 
 **NOTE:** All IO/Expansion pins operate at VIn level. If the XC6194A IO are connected to an MCU, please verify voltage compatability or utilize one of the optional Micro Foundry XC6194A expansion PCBs.
 
