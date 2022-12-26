@@ -57,7 +57,7 @@ JST SH style connector
 
 ### Additional IO Pin Info
 Basic XC6194A functionality can be achived utilizing the IO connector.
-- SW Pin: When wired to a N.O. (normally open) momentary switch with the other switch leg connected to GND. Pressing the switch will avtivate the XC6194A's internal mosfet and deliver power to VOut. Pressing the switch for the required Turn-Off Delay will turn off the XC6194A. The XC6194A Breakout has the required pull-up resistor on the SW circuit. 
+- SW Pin: When wired to a N.O. (normally open) momentary switch with the other switch leg connected to GND, pressing the switch will avtivate the XC6194A's internal mosfet and deliver power to VOut. Pressing the switch for the required Turn-Off Delay will turn off the XC6194A. The XC6194A Breakout has the required pull-up resistor on the SW circuit. 
 - PG Pin: The Power Good Output is traditionally utilized to enable a downstream power supply with an Active High Enable input. Within the XC6194 functional logic, the PG pin state is controlled by the On/Off, Short Circuit Protection, Thermal Shut Down, and Soft Start logic blocks. The XC6194A Breakout has the required pull-up resistor on the VOut circuit.
 - SHDN Pin: A HIGH signal on this input will trigger an immediate shut down, VOut will be disconnected and PG will be pulled low.
 - VOut: The breakout circuit contains a 0 Ohm (Zero) series resistor allowing this Output to be utilized with a LED, such as a single color LED momentary switch. The resistor can be replaced with one of an appropriate value if current control is required.
