@@ -1,12 +1,15 @@
 # MicroFoundry-XC6194A-PH-Breakout-PCB
 Information about the XC6194A Breakout with PH connectors.
 
+## Why?
+I wanted to utilize one of those good looking Rugged Metal RGB Momentary Switches like [adafruit sells](https://www.adafruit.com/product/3350) in another project. "Momentary" is cool as it provides a nice clean flush look, but not very condusive for powering On/Off a system. I tossed around a couple differnt ideas on latching circuits and then I stumbled across the TOREX XC6194 IC. Bam - sold! 
+
 ## XC6194 Description
 The TOREX XC6194A series device is a high side load switch rated at 1A/5Vdc. Its most unique feature is the ability to latch "On" the signal from a momentary push button and additional features to enhance battery operated devices.
 
 The built-in high side switch is turned on and latched by inputting LOW level signal from a momentary switch to the SW (Switch) pin. It is turned off by a HIGH level signal into the SHDN (Shutdown) pin from the MCU or the like. Optionally, power-off state can be achieved with the XC6194A series by inputting a continuous LOW level signal to the SW pin for the duration of TOFFD (Turn-Off Delay).
 
-When the SW and SHDN signals are wired to MCU IO, with a short tap of the SW signal, end-user developed code can cleanly close connections, stop processes and then output the required SHDN signal when appropriate. Additionally, the Turn-Off Delay functionality offers a fail-safe option to power down.
+When the SW and SHDN signals are wired to MCU IO, with a short tap of the SW signal, end-user developed code can cleanly close connections, stop processes and then output the required SHDN signal when appropriate. Additionally, the Turn-Off Delay functionality offers the option to force power down.
 
 ## XC6194 Features
 
@@ -25,7 +28,7 @@ When the SW and SHDN signals are wired to MCU IO, with a short tap of the SW sig
 | Package | USP-8B06 (2.0 x 2.0 x h0.33mm) |
 
 ## The Micro Foundry XC6194A Breakout
-This is a practical application of the XC6194A IC with JST style PH series connectors for VIn/VOut, a JST SH style connector to provide IO access to the XC6194A functions, essential passive components required for basic operation and voltage-in/voltage-out LEDs. An additional 1.0mm pitch FFC connector offers expansion capabilities for optional breakout PCBs with features like voltage level signal translation and the ability to drive up to 3 LEDs for RGB momentarty switches such as those sold by Adafruit. The PCB is 26x26 mm with 4x 2.5mm mounting holes.
+This is a practical application of the XC6194A IC with JST style PH series connectors for VIn/VOut, a JST SH style connector to provide IO access to the XC6194A functions, essential passive components required for basic operation and voltage-in/voltage-out LEDs. An additional 1.0mm pitch FFC connector offers expansion capabilities for optional breakout PCBs with features like voltage level signal translation and the ability to drive up to 3 LEDs for RGB momentarty switches such as those sold by adafruit. The PCB is 26x26 mm with 4x 2.5mm mounting holes.
 
 ## Pinouts
 ### VIn/VOut
